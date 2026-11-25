@@ -30,6 +30,6 @@ The public site and volunteer portal for D.A.R.E. Ministries, an Atlanta faith-b
 Eleventy, Nunjucks, Netlify Functions, Netlify Database (Postgres), Netlify Identity, Resend; Vitest, GitHub Actions
 
 ### How I build
-Claude Code is the main agent and Codex works on its own branches, under written rules both read every session. GitNexus indexes each repo into a code knowledge graph, so the agent checks the blast radius of a change before it edits and runs change detection on the graph before it commits. Every change is a pull request reviewed by CodeRabbit AI and two custom skills: one turns the PR's sequence diagram into adversarial tests, the other works every review comment. 454 merged PRs and roughly 5,600 automated tests across my projects.
+Claude Code is the main agent and Codex works on its own branches, under written rules both read every session. GitNexus indexes each repo into a code knowledge graph, so the agent checks the blast radius of a change before it edits and runs change detection on the graph before it commits. Every change is a pull request reviewed by CodeRabbit AI and two custom skills: one turns the PR's sequence diagram into adversarial tests, the other works every review comment. Across eight repos, 661 merged pull requests, roughly 12,200 automated tests (currently implementing Stryker to cull duplicates and low value tests) and 128 diagram-driven test specs, counted from git history and test files on November 24, 2026.
 
 The repos are private. Code available for review on request.
